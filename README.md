@@ -20,6 +20,8 @@ struct User: Identifiable, Codable {
 - **ハンズオンの動画: https://www.youtube.com/watch?v=OZN_YFZy770&t=1467**
 - スライド: https://speakerdeck.com/koher/await
 
+`async/await` を使ったコードは Swift 5.3 環境で実行することはできません。しかし、すでに [apple/swift](https://github.com/apple/swift) の `main` ブランチにマージされているため、最新ビルドの Swift であれば利用することができます。 **[Swift Fiddle](https://swiftfiddle.com/pkyef4aymbf3fnmodkiym2rxhi) を使えば、ブラウザ上で手軽に最新ビルドの Swift を用いて `async/await` を含むコードをコンパイル・実行することができます** （ドロップダウンリストから `nightly-main` を選択する必要があります。上記ハンズオンも Swift Fiddle を用いて行われました）。
+
 | 問題 | 解答例 | テーマ | 
 |:--|:--|:--|
 | [01A](src/01a.swift), [01B](src/01b.swift) | [01A](src/01a-answer.swift), [01B](src/01b-answer.swift) | `async/await` （エラーハンドリングなし） |
